@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal & Nikita Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">K & N</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#venue">Venue</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="overlay"></div>
+        <div class="content fade-in">
+            <div class="ganpati-icon">॥ श्री गणेशाय नमः ॥</div>
+            <h2 class="title-sub">शुभविवाह सोहळा</h2>
+            <div class="names-container">
+                <h1 class="name">कुणाल</h1>
+                <span class="weds">संग</span>
+                <h1 class="name">निकिता</h1>
+            </div>
+            <p class="hero-date">बुधवार, ६ मे २०२६</p>
+            <div class="scroll-indicator"><span></span></div>
+        </div>
+    </section>
+
+    <section class="family-section container">
+        <div class="section-header">
+            <h3>स्नेह निमंत्रण</h3>
+            <hr class="divider">
+        </div>
+        <div class="family-grid">
+            <div class="family-card groom-side reveal">
+                <h4>वर पक्ष</h4>
+                <p><strong>कुणाल</strong> (3D/UI/UX Designer)</p>
+                <p>चि. अशोक तुकाराम सोनवणे यांचे सुपुत्र</p>
+                <p>रा. जायखेडा, ता. सटाणा</p>
+            </div>
+            <div class="family-card bride-side reveal">
+                <h4>वधू पक्ष</h4>
+                <p><strong>निकिता</strong> (M.B.A. HR)</p>
+                <p>कु. भरत चिमण जगदाळे यांची सुकन्या</p>
+                <p>रा. वाखारी, ता. देवळा</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events-section">
+        <div class="container">
+            <div class="section-header">
+                <h3>कार्यक्रम पत्रिका</h3>
+                <hr class="divider">
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="event-tag">Haldi & Mandav</span>
+                        <h4>मंगळवार, ५ मे २०२६</h4>
+                        <p>सकाळी ८:०० वा. मांडव | सायंकाळी ७:०० वा. हळद</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item main-event reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="event-tag highlight">Wedding Ceremony</span>
+                        <h4>बुधवार, ६ मे २०२६</h4>
+                        <p>शुभविवाह दुपारी १२:३० वा.</p>
+                        <p>भोजन सायंकाळी ६:०० वा.</p>
+                        <button class="btn-calendar" onclick="addToCalendar()">Add to Calendar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="venue" class="venue-section reveal">
+        <div class="container">
+            <div class="venue-card">
+                <h3>विवाहस्थळ</h3>
+                <p class="venue-name">पार्वतानंद लॉन्स</p>
+                <p>लोहणेर, नाशिक सटाणा रोड, ता. सटाणा, जि. नाशिक</p>
+                <a href="https://maps.google.com" target="_blank" class="btn-maps">View on Google Maps</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h4>निमंत्रक</h4>
+            <p class="family-name">समस्त सोनवणे परिवार, जायखेडा</p>
+            <div class="contact-links">
+                <a href="tel:9421500087">📞 9421500087</a>
+                <a href="tel:9096670076">📞 9096670076</a>
+            </div>
+            <p class="gift-note">टिप: कुठल्याही प्रकारचे आहेर स्वीकारले जाणार नाही.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
